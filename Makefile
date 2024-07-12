@@ -6,10 +6,6 @@ ifneq (,$(wildcard ./.env))
 	export
 endif
 
-# Variables
-DOCKER_IMAGE_NAME := my-docker-image
-DOCKER_CONTAINER_NAME := my-docker-container
-
 # Build the Docker image
 build:
 	docker build --build-arg PORT=$(CONTAINER_PORT) -t $(DOCKER_IMAGE_NAME) .
