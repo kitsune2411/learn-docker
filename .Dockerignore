@@ -1,0 +1,30 @@
+# Ignore files and directories commonly used in development
+node_modules
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Ignore Docker-specific files and directories
+.dockerignore
+.dockerignore.example
+.dockerignore.sample
+.dockerignore.template
+Dockerfile
+Dockerfile.*
+.dockerignore
+.dockerignore.example
+.dockerignore.sample
+.dockerignore.template
+.dockerignore
+
+# Ignore editor-specific files and directories
+.vscode
+.idea
+*.sublime-project
+*.sublime-workspace
+
+# Ignore miscellaneous files and directories
+.git
+.gitignore
+README.md
+LICENSE
